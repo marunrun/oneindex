@@ -25,15 +25,6 @@ function file_ico($item){
 <?php endif;?>
 <style>
 
-.site-footer {
-  font-size: 19px;
-  text-align: center;
-  padding: 24px;
-  bottom: 10px;
-}
-.site-footer a {
-	color: #8b959f!important;
-}
 .thumb .th{
 	display: none;
 }
@@ -221,8 +212,3 @@ $(function(){
 </script>
 <a href="javascript:thumb();" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">format_list_bulleted</i></a>
 <?php view::end('content');?>
-<div class="site-footer ">
-        <div class="footer-info">
-            <a href="https://beian.miit.gov.cn" rel="noopener" target="_blank">鄂ICP备16003886号-3</a>
-        </div>
-</div>

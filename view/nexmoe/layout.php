@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="/theme/mdui.min.css"/>
 	<link rel="stylesheet" href="/theme/style.css">
     <script src="/theme/mdui.min.js"></script>
+	<style>
+	.site-footer {
+		font-size: 19px;
+		text-align: center;
+		padding: 24px;
+		bottom: 10px;
+	}
+	.site-footer a {
+		color: #8b959f!important;
+	}
+	</style>
 </head>
 <body class="mdui-theme-primary-blue-grey mdui-theme-accent-blue">
 	<header class="nav">
@@ -37,5 +48,10 @@
 		</div>
     	<?php view::section('content');?>
   	</div>
+	<div class="site-footer ">
+		<div class="footer-info">
+			<a href="https://beian.miit.gov.cn" rel="noopener" target="_blank">鄂ICP备16003886号-3</a>
+		</div>
+	</div>
 </body>
 </html>
