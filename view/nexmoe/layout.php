@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
-	<title><?php e(config('site_name'));?> - 私人云服务</title>
+	<title><?php e(config('site_name'));?> - marunrun</title>
 	<link rel="shortcut icon" href="/theme/favicon.ico">
     <link rel="stylesheet" href="/theme/mdui.min.css"/>
 	<link rel="stylesheet" href="/theme/style.css">
