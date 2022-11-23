@@ -37,21 +37,3 @@ rewrite ^/(.*)$ /index.php?/$1 last;
 * 2021.03.19 修复功能：解决列表排序问题
 
    ......
-
-## API接口上传文件
-
-* 接口地址：/api/v1/upload
-* POST参数名：file
-* 请求头：{"authcode":"xxxxxx"}
-
-![image-20210630234829890](https://pan.layne666.cn/images/2021/06/30/N2PmrtkkAF.png)
-
-![image-20210630234929694](https://pan.layne666.cn/images/2021/06/30/kCjgGPd87n.png)
-
-## 预览图
-
-![](https://pan.layne666.cn/images/2021/06/30/CNS0GfTf0b.png)
-
-![](https://pan.layne666.cn/images/2021/06/30/Af0ZlBjdZE.png)
-
-![](https://pan.layne666.cn/images/2021/06/30/2TtUwUbmgr.png)
